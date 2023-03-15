@@ -87,6 +87,8 @@ kill -9 $(ps aux | grep "gost" | sed '/grep/d' | awk '{print $2}')
 编辑/etc/gost.json文件可修改配置数据
 如果使用宝塔面板需要在面板放行设置的端口
 最后客户端使用Proxifier连接上述Socks5的端口，就可以实现全局应用都使用Oracle Cloud的IP了.
+
+
 [refer](https://zhuanlan.zhihu.com/p/352736372?)
 
 
